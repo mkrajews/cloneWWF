@@ -1,0 +1,181 @@
+/*HEADER SECTION:*/
+
+.headerImg {
+  /*background-attachment: fixed;*/
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13362/images/hero_full/Original_WW164138.jpg?1490292812);
+  background-repeat: no-repeat 50% 50%;
+  background-size: cover;
+  height: 510px;
+  max-height: calc(70vh - 85px);
+  min-height: 320px;
+
+}
+
+.headerImg div {
+
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+  opacity: 0.5;
+  padding-bottom: 40px;
+  padding-left: 10vw;
+  padding-top: 400px;
+}
+
+.headerImg h1,p {
+  color: rgba(255,255,255,1) ;
+  font-size: 20px;
+}
+
+.logo {
+  background-color: white;
+  background-position: right;
+  position:absolute;
+  margin-left: 8vw;
+  height: 110px;
+  width: 100px;
+}
+
+.navbar {
+  background: #000 url(https://www.worldwildlife.org/assets/structure/unique/bg-header-pattern-2d1f5ee4abb035203b0bd1cb7326ea039863ae7c3190ee41e43f4d8d9fcbf953.png) 50% 0;
+  display: flex;
+  justify-content: flex-end;
+  height: 75px;
+
+}
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 32px;
+  display: inline;
+
+}
+
+.navbarList {
+  color: white;
+  padding-left: 150px;
+  padding-right: 50vw;
+}
+
+.nbFirstItems {
+  padding-top: 35px;
+  right: 500px;
+
+}
+
+.nbList2 {
+  color: #989b97;
+  font-size: 13px;
+  /*margin-left: 450px;*/
+  margin-right: 80px;
+  padding: 0;
+  position: absolute;
+  right: 2vw;
+  padding-top: 20px;
+}
+
+button {
+  background-color: #d55c19;
+  color: white;
+  font-size: 15px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+}
+
+
+/*BODY SECTION:*/
+
+.homepage {
+  height:1000px;
+  background-color: white;
+}
+
+.wrapper {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: red;
+  height: 400px;
+  padding-left: 9vw;
+  padding-right: 9vw;
+}
+
+.card-image1 {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);
+  height: 400px;
+  width: 500px;
+  background-size: contain;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

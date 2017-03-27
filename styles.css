@@ -112,23 +112,25 @@ input {
 
 .card-image1 {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);
-  background-size: contain;
-  height: 400px;
-  width: 500px;
+  background-size: cover;
+  height: 420px;
+  width: 520px;
 }
 
 .card-image2 {
   background-color: black;
   border-radius: 10px;
   height: 400px;
-  width: 220px;
+  margin-left: 30px;
+  width: 280px;
 }
 
 .card-image3 {
   background-color: black;
   border-radius: 10px;
   height: 400px;
-  width: 220px;
+  margin-left: 30px;
+  width: 280px;
 }
 
 

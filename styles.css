@@ -106,10 +106,13 @@ input {
   padding-right: 9vw;
 }
 
+.cards li {
+  display: inline-block;
+}
+
 .card-image1 {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);
   background-size: contain;
-  float:left;
   height: 400px;
   width: 500px;
 }
@@ -117,7 +120,13 @@ input {
 .card-image2 {
   background-color: black;
   border-radius: 10px;
-  margin-left: 520px;
+  height: 400px;
+  width: 220px;
+}
+
+.card-image3 {
+  background-color: black;
+  border-radius: 10px;
   height: 400px;
   width: 220px;
 }

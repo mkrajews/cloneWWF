@@ -122,14 +122,21 @@ input {
   border-radius: 10px;
   height: 400px;
   margin-left: 30px;
+  position: absolute;
   width: 280px;
+}
+
+.card-content2 {
+  color: white;
+  position: relative;
 }
 
 .card-image3 {
   background-color: black;
   border-radius: 10px;
   height: 400px;
-  margin-left: 30px;
+  /*margin-left: 30px;*/
+  /*position: relative;*/
   width: 280px;
 }
 

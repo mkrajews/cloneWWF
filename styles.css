@@ -1,11 +1,6 @@
 /*HEADER SECTION:*/
-body {
-  font-family: Open Sans;
-  font-weight: bold;
-}
 
 .headerImg {
-
   background-attachment: fixed;
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13396/images/hero_full/IMGL2665.jpg?1490905055);
   background-repeat: no-repeat;
@@ -13,13 +8,9 @@ body {
   height: auto;
   max-height: calc(70vh - 85px);
   min-height: 320px;
-  /*height: 100%;
-  max-height: calc(70vh - 85px);
-  min-height: 320px;
-  width:100vw;*/
 }
 
-/*WORK ON, GRADIENT ON JUMBOTRON IMG:*/
+/*IN PROGRESS, GRADIENT ON JUMBOTRON IMG:*/
 .headerImg div {
   /*background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
   opacity: 0.5;*/
@@ -36,12 +27,12 @@ body {
 
 .logo {
   background: url(https://www.worldwildlife.org/assets/structure/unique/logo-c562409bb6158bf64e5f8b1be066dbd5983d75f5ce7c9935a5afffbcc03f8e5d.png) no-repeat;
+  background-position: right;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   display: block;
-  background-position: right;
-  position:absolute;
-  margin-left: 8.4vw;
   height: 120px;
+  margin-left: 8.4vw;
+  position:absolute;
   width: 100px;
   z-index: 500;
 }
@@ -49,22 +40,18 @@ body {
 .navbar {
   background: #000 url(https://www.worldwildlife.org/assets/structure/unique/bg-header-pattern-2d1f5ee4abb035203b0bd1cb7326ea039863ae7c3190ee41e43f4d8d9fcbf953.png) 50% 0;
   display: flex;
-  justify-content: flex-end;
-  height: 75px;
-
   font-family: Open Sans;
   font-weight: bold;
-
+  height: 75px;
+  justify-content: flex-end;
 }
 
 .navbar li {
-  list-style: none;
   display: inline;
+  list-style: none;
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 32px;
-  display: inline;
-
 }
 
 .navbarList {
@@ -76,18 +63,16 @@ body {
 .nbFirstItems {
   padding-top: 35px;
   right: 500px;
-
 }
 
 .nbList2 {
   color: #989b97;
   font-size: 13px;
-  /*margin-left: 450px;*/
   margin-right: 80px;
   padding: 0;
+  padding-top: 20px;
   position: absolute;
   right: 2vw;
-  padding-top: 20px;
 }
 
 button {
@@ -110,8 +95,8 @@ input {
 
 /*BODY SECTION:*/
 .homepage {
-  height:1000px;
   background-color: white;
+  height:1000px;
 }
 
 .wrapper {
@@ -131,15 +116,14 @@ input {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);
   background-size: cover;
   height: 420px;
-
   background-position: center;
 
   width: 520px;
 }
 
 .card-image1:hover {
-  background-size: 110%;
   background-position: center;
+  background-size: 110%;
   height: 420px;
   /*transition: all 200ms ease-in-out;*/
   transition-timing-function: ease-out;
@@ -165,7 +149,6 @@ input {
   border-radius: 10px;
   height: 400px;
   margin-left: 30px;
-  /*position: relative;*/
   width: 280px;
 }
 
@@ -189,8 +172,8 @@ input {
 }
 
 .cards {
-  display: flex;
   align-items: flex-start;
+  display: flex;
 }
 
 

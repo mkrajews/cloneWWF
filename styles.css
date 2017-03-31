@@ -8,7 +8,6 @@
   height: 510px;
   max-height: calc(70vh - 85px);
   min-height: 320px;
-
 }
 
 .headerImg div {
@@ -116,7 +115,6 @@ input {
   height: 420px;
 
   background-position: center;
-  transition: all 200ms ease-in-out;
 
   width: 520px;
 }
@@ -125,8 +123,8 @@ input {
   background-size: 110%;
   background-position: center;
   height: 420px;
-  background-transition: all 200ms ease-in-out;
-
+  /*transition: all 200ms ease-in-out;*/
+  transition-timing-function: ease-out;
   width: 520px;
 }
 
@@ -140,8 +138,8 @@ input {
 }
 
 .card-content2 {
-  color: white;
-  position: relative;
+  color: pink;
+  /*position: relative;*/
 }
 
 .card-image3 {
@@ -151,6 +149,11 @@ input {
   margin-left: 30px;
   /*position: relative;*/
   width: 280px;
+}
+
+.title {
+  display: block;
+  text-align: center;
 }
 
 

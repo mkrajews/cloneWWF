@@ -176,6 +176,10 @@ input {
   width:80px;
 }
 
+.cards {
+  display: flex;
+  align-items: flex-start;
+}
 
 
 

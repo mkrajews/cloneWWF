@@ -153,7 +153,18 @@ input {
 
 .title {
   display: block;
+  font-weight: bold;
+  line-height: 40px;
   text-align: center;
+}
+
+.title:before, .title:after {
+  background: rgba(80,55,55,0.15);
+  content: "";
+  display: block;
+  height:6px;
+  margin: 0 auto;
+  width:80px;
 }
 
 

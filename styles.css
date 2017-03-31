@@ -1,13 +1,22 @@
 /*HEADER SECTION:*/
+body {
+  font-family: Open Sans;
+  font-weight: bold;
+}
 
 .headerImg {
+
   background-attachment: fixed;
-  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13362/images/hero_full/Original_WW164138.jpg?1490292812);
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13396/images/hero_full/IMGL2665.jpg?1490905055);
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 510px;
+  background-size: cover;
+  height: auto;
   max-height: calc(70vh - 85px);
   min-height: 320px;
+  /*height: 100%;
+  max-height: calc(70vh - 85px);
+  min-height: 320px;
+  width:100vw;*/
 }
 
 /*WORK ON, GRADIENT ON JUMBOTRON IMG:*/
@@ -42,6 +51,9 @@
   display: flex;
   justify-content: flex-end;
   height: 75px;
+
+  font-family: Open Sans;
+  font-weight: bold;
 
 }
 

@@ -93,6 +93,7 @@ input {
 
 .congressButton {
   padding: 10px 40px 10px 40px;
+  margin-top: 10px;
 }
 
 
@@ -114,11 +115,28 @@ input {
 }
 
 
-/*ROW 1 CARDS*/
+.cards {
+  align-items: flex-start;
+  display: flex;
+}
+
 .cards li {
   display: inline-block;
 }
 
+.hdr {
+  color: white;
+  display: block;
+  font: bold 15px/1.33333333 OpenSansRegular, Helvetica, Arial, sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-family: WWFRegular, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+/*ROW 1 CARDS*/
 .card-image1 {
   /*background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);*/
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13197/images/card_2_large/shutterstock_400192165.jpg?1487698315);
@@ -127,13 +145,6 @@ input {
   background-size: cover;
   height: 460px;
   width: 580px;
-}
-
-.hdr {
-  color: white;
-  display: block;
-  font: bold 15px/1.33333333 OpenSansRegular, Helvetica, Arial, sans-serif;
-  letter-spacing: 1.5px;
 }
 
 .card-image1:hover {
@@ -155,6 +166,8 @@ input {
 
 .card-content2 {
   color: white;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .card-image3 {
@@ -194,10 +207,7 @@ input {
   width:80px;
 }
 
-.cards {
-  align-items: flex-start;
-  display: flex;
-}
+
 
 /*ROW 2 cards*/
 

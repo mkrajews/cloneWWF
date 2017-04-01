@@ -286,10 +286,25 @@ input {
 }
 
 #missionRow .title {
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
   padding-top: 40px;
 }
 
+.hilight {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.lowlight {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/*ROW THREE CARDS*/
 .card-image1b {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13308/images/card_2_large/IMGL2810.jpg?1489600957);
   border-radius: 10px;

@@ -1,6 +1,7 @@
 /*HEADER SECTION:*/
 
 .headerImg {
+  background: center;
   background-attachment: fixed;
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13396/images/hero_full/IMGL2665.jpg?1490905055);
   background-repeat: no-repeat;
@@ -8,6 +9,7 @@
   height: auto;
   max-height: calc(70vh - 85px);
   min-height: 320px;
+  padding-bottom: 50px;
 }
 
 /*IN PROGRESS, GRADIENT ON JUMBOTRON IMG:*/
@@ -118,46 +120,55 @@ input {
   background-position: center;
   border-radius: 10px;
   background-size: cover;
-  height: 420px;
-  width: 520px;
+  height: 460px;
+  width: 580px;
 }
 
 .hdr {
-  font: bold 15px/1.33333333 OpenSansRegular, Helvetica, Arial, sans-serif;
+  color: white;
   display: block;
-  /*position: absolute;*/
+  font: bold 15px/1.33333333 OpenSansRegular, Helvetica, Arial, sans-serif;
   letter-spacing: 1.5px;
 }
 
 .card-image1:hover {
   background-position: center;
   background-size: 110%;
-  height: 420px;
+  height: 460px;
   /*transition: all 200ms ease-in-out;*/
   transition-timing-function: ease-out;
-  width: 520px;
+  width: 580px;
 }
 
 .card-image2 {
   background-color: #53284f;
   border-radius: 10px;
-  height: 420px;
-  margin-left: 30px;
-  /*position: absolute;*/
+  height: 460px;
+  margin-left: 10px;
   width: 280px;
 }
 
 .card-content2 {
-  color: pink;
+  color: white;
   /*position: absolute;*/
 }
 
 .card-image3 {
-  background-color: black;
+  background-image: url('https://c402277.ssl.cf1.rackcdn.com/photos/12917/images/portrait_small/MID_54156.jpg?1482158655');
   border-radius: 10px;
-  height: 420px;
-  margin-left: 30px;
+  height: 460px;
+  margin-left: 10px;
   width: 280px;
+}
+
+.card-content3 {
+  background-color: black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  height: 160px;
+  margin-top: 48vh;
+  padding-top: 10px;
 }
 
 /*"features and news" title section */

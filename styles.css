@@ -176,8 +176,8 @@ input {
   display: block;
   font-weight: bold;
   line-height: 40px;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-top: 110px;
   text-align: center;
 }
 
@@ -214,6 +214,14 @@ input {
 
 .card-image2a {
   background: url(https://www.worldwildlife.org/assets/structure/unique/bg-patterned-e2dd5fbf93d51984d5fcff9b9c1e9006810dbbdf4ba42186bf705b016ee280bd.png) repeat 50% 50%;
+  border-radius: 10px;
+  height: 460px;
+  margin-left: 10px;
+  width:280px;
+}
+
+.card-image3a {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13354/images/card_1_large/MID_349517.jpg?1490194379);
   border-radius: 10px;
   height: 460px;
   margin-left: 10px;

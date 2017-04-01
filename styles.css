@@ -102,7 +102,6 @@ input {
 }
 
 .wrapper {
-  /*background-color: red;*/
   height: 400px;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -110,6 +109,8 @@ input {
   padding-right: 9vw;
 }
 
+
+/*ROW 1 CARDS*/
 .cards li {
   display: inline-block;
 }
@@ -150,7 +151,6 @@ input {
 
 .card-content2 {
   color: white;
-  /*position: absolute;*/
 }
 
 .card-image3 {
@@ -195,7 +195,30 @@ input {
   display: flex;
 }
 
+/*ROW 2 cards*/
 
+.card-image1a {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13381/images/card_2_large/329626.jpg?1490888590);
+  border-radius: 10px;
+  height: 460px;
+  width: 580px;
+}
+
+.card-image1a:hover {
+  background-position: center;
+  background-size: 110%;
+  height: 460px;
+  transition-timing-function: ease-out;
+  width: 580px;
+}
+
+.card-image2a {
+  background: url(https://www.worldwildlife.org/assets/structure/unique/bg-patterned-e2dd5fbf93d51984d5fcff9b9c1e9006810dbbdf4ba42186bf705b016ee280bd.png) repeat 50% 50%;
+  border-radius: 10px;
+  height: 460px;
+  margin-left: 10px;
+  width:280px;
+}
 
 
 

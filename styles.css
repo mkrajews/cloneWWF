@@ -132,8 +132,7 @@ input {
   font-size: 20px;
   font-family: WWFRegular, Helvetica, Arial, sans-serif;
   line-height: 1;
-  padding-top: 30px;
-  padding-left: 30px;
+
 }
 
 /*ROW 1 CARDS*/
@@ -147,6 +146,11 @@ input {
   width: 580px;
 }
 
+.card-image1 a {
+  text-decoration: none;
+  
+}
+
 .card-image1:hover {
   background-position: center;
   background-size: 110%;
@@ -154,6 +158,12 @@ input {
   /*transition: all 200ms ease-in-out;*/
   transition-timing-function: ease-out;
   width: 580px;
+}
+
+.card-content1 {
+  padding-top: 30px;
+  padding-left: 30px;
+
 }
 
 .card-image2 {
@@ -185,7 +195,8 @@ input {
   color: white;
   height: 160px;
   margin-top: 48vh;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 /*"features and news" title section */

@@ -276,7 +276,8 @@ input {
   width: 580px;
 }
 
-#missionRow {
+/*MISSION ROW SECTION*/
+.missionRow {
   background: #f6f5f2;
   display: block;
   height: 425px;
@@ -285,9 +286,14 @@ input {
   width: 100vw;
 }
 
-#missionRow .title {
-  /*padding-bottom: 40px;*/
+.missionRow .title {
   padding-top: 40px;
+}
+
+.mission1 {
+  background-image: url(https://www.worldwildlife.org/assets/content/goal-pillar-food-b1a57617056325546767a1a96ba6d3dcf2db6d7744f8fc54fe2a8a18c5dcdc73.jpg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
 .hilight {

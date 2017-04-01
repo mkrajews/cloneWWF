@@ -2,7 +2,7 @@
 
 .headerImg {
   background: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13396/images/hero_full/IMGL2665.jpg?1490905055);
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,6 +118,7 @@ input {
 .cards {
   align-items: flex-start;
   display: flex;
+  margin-top: 10px;
 }
 
 .cards li {
@@ -148,7 +149,7 @@ input {
 
 .card-image1 a {
   text-decoration: none;
-  
+
 }
 
 .card-image1:hover {
@@ -193,12 +194,14 @@ input {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   color: white;
-  height: 160px;
-  margin-top: 48vh;
+  height: 140px;
+  margin-top: 35vh;
   padding-top: 30px;
   padding-left: 30px;
 }
-
+.card3hdr {
+  font-size: 20px;
+}
 /*"features and news" title section */
 .title {
   display: block;
@@ -251,6 +254,13 @@ input {
   height: 460px;
   margin-left: 10px;
   width:280px;
+}
+
+.card-image4a {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13029/images/card_1_large/farabee_wetland_spring2017.jpg?1485359469);
+  border-radius: 10px;
+  height: 460px;
+  width:290px;
 }
 
 

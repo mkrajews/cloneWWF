@@ -113,12 +113,20 @@ input {
 }
 
 .card-image1 {
-  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);
+  /*background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13091/images/card_2_large/African_Crane_2.png?1485894315);*/
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13197/images/card_2_large/shutterstock_400192165.jpg?1487698315);
+  background-position: center;
+  border-radius: 10px;
   background-size: cover;
   height: 420px;
-  background-position: center;
-
   width: 520px;
+}
+
+.hdr {
+  font: bold 15px/1.33333333 OpenSansRegular, Helvetica, Arial, sans-serif;
+  display: block;
+  /*position: absolute;*/
+  letter-spacing: 1.5px;
 }
 
 .card-image1:hover {
@@ -131,9 +139,9 @@ input {
 }
 
 .card-image2 {
-  background-color: black;
+  background-color: #53284f;
   border-radius: 10px;
-  height: 400px;
+  height: 420px;
   margin-left: 30px;
   /*position: absolute;*/
   width: 280px;
@@ -141,13 +149,13 @@ input {
 
 .card-content2 {
   color: pink;
-  /*position: relative;*/
+  /*position: absolute;*/
 }
 
 .card-image3 {
   background-color: black;
   border-radius: 10px;
-  height: 400px;
+  height: 420px;
   margin-left: 30px;
   width: 280px;
 }

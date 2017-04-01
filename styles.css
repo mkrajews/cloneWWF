@@ -149,7 +149,6 @@ input {
 
 .card-image1 a {
   text-decoration: none;
-
 }
 
 .card-image1:hover {
@@ -261,6 +260,35 @@ input {
   border-radius: 10px;
   height: 460px;
   width:290px;
+}
+
+.card-image5a {
+  background-color: black;
+  border-radius: 10px;
+  height: 460px;
+  margin-left: 10px;
+  width:280px;
+}
+
+.card-image6a {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13357/images/card_2_large/BDP_4108.JPG?1490210154);
+  border-radius: 10px;
+  height: 460px;
+  width: 580px;
+}
+
+#missionRow {
+  background: #f6f5f2;
+  display: block;
+  height: 425px;
+  margin-left: 0;
+  margin-top:590px;
+  width: 100vw;
+}
+
+#missionRow .title {
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 

@@ -360,6 +360,21 @@ input {
   text-align: center;
 }
 
+.card-image1c {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/10934/images/card_2_large/Panda_Nation_Shoe.jpg?1455117227);
+  border-radius: 10px;
+  height: 460px;
+  width: 580px;
+}
+
+.card-image2c {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/9077/images/card_2_large/Sumatran_Orangutan_8.6.2012_Why_They_Matter_XL_257639.jpg?1433175280);
+  border-radius: 10px;
+  height: 460px;
+  margin-left: 10px;
+  width: 580px;
+}
+
 
 
 

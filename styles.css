@@ -98,7 +98,6 @@ input {
 
 
 
-
 /*BODY SECTION:*/
 .homepage {
   background-color: white;
@@ -220,9 +219,7 @@ input {
 }
 
 
-
 /*ROW 2 cards*/
-
 .card-image1a {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13381/images/card_2_large/329626.jpg?1490888590);
   border-radius: 10px;
@@ -360,6 +357,8 @@ input {
   text-align: center;
 }
 
+
+/*NEXT ROW SECTION*/
 .card-image1c {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/10934/images/card_2_large/Panda_Nation_Shoe.jpg?1455117227);
   border-radius: 10px;
@@ -375,11 +374,11 @@ input {
   width: 580px;
 }
 
+
 /*FOOTER SECTION*/
 .footerbar {
   background: #000;
   color: #ccc;
-  /*display: inline-block;*/
   height: 50px;
   margin-bottom: 300px;
   margin-top: 120px;

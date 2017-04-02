@@ -326,11 +326,35 @@ input {
   width: 580px;
 }
 
+
 .wwfmag {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/13078/images/card_4_large/IMG_0168_%2820%29_2.jpg?1485884410);
   border-radius: 10px;
   height: 460px;
+  width: 100%;
+}
 
+.accntRow {
+  background-image: url('https://c402277.ssl.cf1.rackcdn.com/photos/8985/images/magazine_medium/HI_23516.jpg?1432757253');
+  display: block;
+  background-size: cover;
+  height: 725px;
+  margin-left: 0;
+  margin-top:40px;
+  width: 100vw;
+}
+
+.accntRow .title {
+  padding-top: 45px;
+}
+
+.accnt {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.accntbtn {
+  background-color: black;
 }
 
 

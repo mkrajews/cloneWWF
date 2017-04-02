@@ -378,8 +378,21 @@ input {
 .footerbar {
   background: #000;
   color: #ccc;
+  /*display: inline-block;*/
   height: 50px;
+  margin-bottom: 300px;
+  margin-top: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 1.53061225%;
+  padding-top: 1.53061225%;
   width: 100vw;
+}
+
+.emailbtn {
+  background: orange;
+  color: white;
+  display: inline-block;
 }
 
 

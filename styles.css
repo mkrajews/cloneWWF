@@ -284,13 +284,13 @@ input {
 }
 
 .missionRow .title {
-  padding-top: 40px;
+  padding-top: 90px;
 }
 
 .missionpics {
   float: left;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 
@@ -299,7 +299,6 @@ input {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
-  /*float: left;*/
   height: 100px;
   width: 100px;
 }

@@ -287,8 +287,8 @@ input {
   padding-top: 40px;
 }
 
-#mission1 {
-  background-image: url(https://www.worldwildlife.org/assets/content/goal-pillar-food-b1a57617056325546767a1a96ba6d3dcf2db6d7744f8fc54fe2a8a18c5dcdc73.jpg);
+#missionpic {
+  /*background-image: url(https://www.worldwildlife.org/assets/content/goal-pillar-food-b1a57617056325546767a1a96ba6d3dcf2db6d7744f8fc54fe2a8a18c5dcdc73.jpg);*/
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 40px;

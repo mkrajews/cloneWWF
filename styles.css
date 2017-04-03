@@ -218,6 +218,10 @@ input {
   width:80px;
 }
 
+.label {
+  color: white;
+}
+
 
 /*ROW 2 cards*/
 .card-image1a {

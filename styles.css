@@ -280,7 +280,7 @@ input {
   height: 425px;
   margin-left: 0;
   margin-top:590px;
-  /*width: 100vw;*/
+  padding-left: 130px;
 }
 
 .missionRow .title {
@@ -289,6 +289,8 @@ input {
 
 .missionpics {
   float: left;
+  padding-left: 40px;
+  padding-right: 40px;
   text-align: center;
 }
 
@@ -296,10 +298,10 @@ input {
   /*background-image: url(https://www.worldwildlife.org/assets/content/goal-pillar-food-b1a57617056325546767a1a96ba6d3dcf2db6d7744f8fc54fe2a8a18c5dcdc73.jpg);*/
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 40px;
+  border-radius: 50%;
   /*float: left;*/
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
 
 .hilight {

@@ -69,6 +69,10 @@ input {
   padding-top: 32px;
 }
 
+#nav1 {
+  margin-left: 19px;
+}
+
 .navbarList {
   color: white;
   padding-left: 150px;
@@ -78,6 +82,14 @@ input {
 .nbFirstItems {
   padding-top: 35px;
   right: 500px;
+}
+
+.nbFirstItems li {
+  margin-left: 19px;
+
+}
+#work {
+  margin-right: 10px;
 }
 
 .nbList2 {
@@ -95,8 +107,9 @@ input {
   background-image: url(icon.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: 24px;
   border: 0;
+  padding: 8px;
 }
 
 .congressButton {

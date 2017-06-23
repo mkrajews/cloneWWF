@@ -15,15 +15,15 @@ input {
   height: auto;
   max-height: calc(70vh - 85px);
   min-height: 320px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 /*IN PROGRESS:*/
 .headerImg div {
   /*CHECK OUT USING SCRIM INSTEAD*/
-  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
-  opacity: 0.5;
-  padding-bottom: 30px;
+  /*background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));*/
+  /*opacity: 0.5;*/
+  padding-bottom: 0px;
   padding-left: 10vw;
   padding-top: 300px;
 }
@@ -35,6 +35,9 @@ input {
 
 .hdr-text {
   color: white;
+  font-family: Open Sans;
+  line-height: 40px;
+
 }
 
 .logo {
@@ -90,6 +93,14 @@ input {
 .congressButton {
   padding: 10px 40px 10px 40px;
   margin-top: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+
 }
 
 .button {

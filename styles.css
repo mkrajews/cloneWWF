@@ -57,15 +57,15 @@ input {
   display: flex;
   font-family: Open Sans;
   font-weight: bold;
-  height: 75px;
+  height: 73px;
   justify-content: flex-end;
 }
 
 .navbar li {
   display: inline;
   list-style: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   padding-top: 32px;
 }
 
@@ -92,6 +92,11 @@ input {
 
 .search {
   font-style: italic;
+  background-image: url(icon.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border: 0;
 }
 
 .congressButton {
@@ -114,7 +119,12 @@ input {
   display: inline-block;
   font-size: 15px;
   margin-right: 5px;
-  padding: 12px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+
 }
 
 
